@@ -1,0 +1,51 @@
+@import "variables";
+@import "logoStyle";
+
+*{
+    font-family: Arial, sans-serif;
+}
+.image-advanced-search{
+    ul,li{
+        list-style: none;
+        font-size: 0.94em;
+        display:flex;
+        justify-content: flex-end;
+        padding: 0px $font-size 0px $font-size;
+        text-align: right;
+        letter-spacing: normal;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+.google-logo{
+    text-align: center;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.btn{
+    padding: 18px 0px 0px;
+    text-align: center;
+}
+input[type = 'text']{
+     @include search-box;
+}
+input[type='text']:hover{
+    box-shadow: 1px 1px 7px $border-color;
+}
+.txt-input:focus{
+    outline: none;
+    box-shadow: 1px 1px 7px $border-color;
+}
+input[type = 'submit']{
+    @include btn-style;
+}
+.btn-submit:hover{
+    border: 1px solid $border-color;
+}

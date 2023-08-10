@@ -1,0 +1,26 @@
+$font-size: 0.98em;
+$border-color: #dfe1e5;
+$btn-color: #f8f9fa;
+$advancedSearch-font-size: 1.25em;
+$advancedSearch-color: #d93025;
+$advanced-font-size: 11px;
+$advanced-label-font-size: 13px;
+@mixin font-deco{
+    font-family: Arial, sans-serif;
+    font-size: $font-size;
+}
+@mixin search-box{
+    width: 583px;
+    height: 46px;
+    border: 1px solid $border-color;
+    border-radius: 24px;
+    padding: 0px 14px; 
+}
+@mixin btn-style{
+    background-color: $btn-color;
+    border: none;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 10px 25px;
+    cursor: pointer;
+}

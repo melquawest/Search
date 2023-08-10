@@ -1,0 +1,74 @@
+.logo {
+  height: 5.72em;
+  width: 17em;
+}
+
+.small-logo {
+  height: 1.5em;
+  width: 5.4em;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+.image-advanced-search ul, .image-advanced-search li {
+  list-style: none;
+  font-size: 0.94em;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 0.98em 0px 0.98em;
+  text-align: right;
+  letter-spacing: normal;
+}
+.image-advanced-search a {
+  text-decoration: none;
+}
+.image-advanced-search a:hover {
+  text-decoration: underline;
+}
+
+.google-logo {
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn {
+  padding: 18px 0px 0px;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 583px;
+  height: 46px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 0px 14px;
+}
+
+input[type=text]:hover {
+  box-shadow: 1px 1px 7px #dfe1e5;
+}
+
+.txt-input:focus {
+  outline: none;
+  box-shadow: 1px 1px 7px #dfe1e5;
+}
+
+input[type=submit] {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  border: 1px solid #dfe1e5;
+}/*# sourceMappingURL=style.css.map */
